@@ -23,11 +23,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a set of commands using the runners shell
-      - name: build gitbook
-        run: |
-          npm install gitbook-cli
-          gitbook fetch pre
-          npm install gitbook-plugin-youtubex
-          gitbook install
+      - name: download gitbook-cli
+        run: npm install gitbook-cli
+        
+      - name: download gitbook latest
+        run: gitbook fetch pre
+          
+      - name: install youtube plugin
+        run: npm install gitbook-plugin-youtubex
+          
+      - name: install gitbook
+        run: gitbook install
+          
+          
 
