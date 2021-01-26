@@ -26,8 +26,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: build gitbook
         run: |
-          npm install gitbook-cli -g # install gitbook
-          gitbook fetch pre # fetch latest stable version
+          npm install gitbook-cli
+          gitbook fetch pre
           npm install gitbook-plugin-youtubex
           gitbook install
 
