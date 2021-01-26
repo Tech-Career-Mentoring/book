@@ -1,1 +1,0 @@
-<img src="assets/portada.png" atl="Start Page" width="100%" >
