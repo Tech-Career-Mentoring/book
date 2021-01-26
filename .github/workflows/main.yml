@@ -24,7 +24,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: download gitbook-cli
-        run: npm install gitbook-cli
+        run: |
+          sudo chown -R $USER /usr/local/lib/node_modules
+          npm install gitbook-cli
         
       - name: download gitbook latest
         run: gitbook fetch pre
