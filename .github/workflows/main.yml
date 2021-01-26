@@ -26,7 +26,7 @@ jobs:
       - name: download gitbook-cli
         run: |
           sudo chown -R $USER /usr/local/lib/node_modules
-          npm install gitbook-cli
+          npm install -g gitbook-cli
         
       - name: download gitbook latest
         run: gitbook fetch pre
