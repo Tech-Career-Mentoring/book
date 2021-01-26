@@ -39,7 +39,9 @@ jobs:
         run: gitbook install
           
       - name: build gitbook
-        run: gitbook build ./build public
+        run: |
+          mkdir build
+          gitbook build ./build public
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
