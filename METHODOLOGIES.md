@@ -3,10 +3,10 @@
 **Agile:** es una “filosofía de proyectos” que se basa en la entrega de trabajos de manera iterativa hasta la finalización del proyecto y en la comunicación constante con el cliente. Se puede entender como la orientación de un proyecto. 
 
 **Metodologías Agile:**
--	Extreme Programming
--	Lean
+-	Extreme Programming: http://www.extremeprogramming.org/
+-	Lean: https://www.lean.org/whatslean/
 -	**Scrum**
--	Kanban
+-	Kanban: https://kanbanize.com/es/recursos-de-kanban/primeros-pasos/que-es-kanban
 
 **Scrum:** es una metodología o proceso de Agile. Provee reglas y procesos acerca de cómo gestionar un proyecto, cómo trabajar en equipo, asignar tareas, entre otros. Se basa en iteraciones o sprints de trabajo, las cuales tienen un enfoque incremental. 
 
